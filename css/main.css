@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url("../fonts/bebas.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 body {
     background-color: black;
     background-size: cover;
@@ -10,20 +15,19 @@ body {
 
 svg {
     font-weight: bold;
-    max-width: 600px;
     height: auto;
 }
 
 .p1 {
-    font-family: 'Garamond', arial;
-    font-size: 15pt;
-    color: #bfbfbf;
+    font-family: 'Bebas', arial;
+    font-size: 14pt;
+    color: darkgray;
     margin: 0;
 }
 
 .p2 {
-    font-family: 'Garamond', arial;
-    font-size: 11pt;
-    color: #bfbfbf;
+    font-family: 'Bebas', arial;
+    font-size: 14pt;
+    color: darkgray;
     margin: 0;
 }
