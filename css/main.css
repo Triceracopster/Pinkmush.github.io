@@ -1,0 +1,29 @@
+
+body {
+    background-color: black;
+    background-size: cover;
+}
+
+.logotext {
+    margin-top: 33%;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 600px;
+    height: auto;
+}
+
+.p1 {
+    font-family: 'Garamond', arial;
+    font-size: 15pt;
+    color: #bfbfbf;
+    margin: 0;
+}
+
+.p2 {
+    font-family: 'Garamond', arial;
+    font-size: 11pt;
+    color: #bfbfbf;
+    margin: 0;
+}
