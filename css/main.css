@@ -28,6 +28,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: "SANSC";
+    src: url("../fonts/SANSC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
     background-color: black;
 }
@@ -38,7 +45,7 @@ body {
 
 .p1 {
     margin-bottom: -1px;
-    color: #8b8b8b;
+    color: #efefef;
     font-size: 11pt;
 }
 
@@ -65,23 +72,23 @@ body {
     padding-left: -2px;
     font-family: UbuntuBold;
     margin: 0;
-    border: 2px solid #8b8b8b;
+    border: 2px solid #efefef;
     width: 425px;
     text-indent: -2px;
 }
 
 .p3 {
     font-family: "VIBERSANS";
-    color: #8b8b8b;
+    color: #efefef;
     font-size: 14pt;
     margin-top: 8px;
     margin-bottom: 0;
 }
 
 .p4 {
-    font-family: "VIBERSANS";
-    color: #8b8b8b;
-    font-size: 18pt;
+    font-family: "SANSC";
+    color: #efefef;
+    font-size: 17pt;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -93,13 +100,13 @@ body {
 .block1 {
     width: 432px;
     padding-right: 0;
-    border-right: 2px solid #8b8b8b;
+    border-right: 2px solid #efefef;
 }
 
 .p5 {
-    font-family: VIBERSANS;
-    font-size: 16pt;
-    color: #8b8b8b;
+    font-family: "SANSC";
+    font-size: 15pt;
+    color: #efefef;
     margin: 0;
 }
 
