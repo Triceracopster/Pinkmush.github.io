@@ -39,78 +39,54 @@ body {
     background-color: black;
 }
 
-.content {
-    margin-top: 22%;
+html, body, .content {
+    height: 100%;
 }
 
 .p1 {
-    margin-bottom: -1px;
+    font-family: "VIBERSANS";
+    margin-bottom: 0;
     color: #efefef;
-    font-size: 11pt;
-}
-
-.upLogoText {
-    float: top;
-}
-
-.logoText {
-    /*height: 70px;*/
-    margin-right: 10px;
-    width: 427px;
-}
-
-.downLogoText {
-    float: bottom;
+    font-size: 15pt;
 }
 
 .p2 {
     color: #efefef;
     font-size: 60pt;
-    line-height: 56px;
-    padding-bottom: 5px;
-    padding-top: 1px;
-    padding-left: -2px;
-    font-family: UbuntuBold;
+    line-height: 66px;
+    font-family: "SANSC";
     margin: 0;
-    border: 2px solid #efefef;
-    width: 425px;
-    text-indent: -2px;
 }
 
 .p3 {
     font-family: "VIBERSANS";
     color: #efefef;
     font-size: 14pt;
-    margin-top: 8px;
+    margin-top: 3px;
     margin-bottom: 0;
 }
 
 .p4 {
     font-family: "SANSC";
     color: #efefef;
-    font-size: 17pt;
+    font-size: 16pt;
     margin-bottom: 0;
-    margin-top: 10px;
+    display: inline;
 }
 
 .colortext {
     color: #90179d;
 }
 
-.block1 {
-    width: 432px;
-    padding-right: 0;
-    border-right: 2px solid #efefef;
-}
-
-.p5 {
+.btn {
     font-family: "SANSC";
-    font-size: 15pt;
     color: #efefef;
+    font-size: 16pt;
+    background: #5a6167;
     margin: 0;
+    border: none;
 }
 
-.block2 {
-    padding-left: 4px;
+.block1 {
+     height: 130px;
 }
-

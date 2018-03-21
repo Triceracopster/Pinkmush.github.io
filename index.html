@@ -13,30 +13,44 @@
 </head>
 <body>
 <div class="content">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="block1 text-center">
-                <div class="upLogoText">
-                    <p class="p1">E-COMMERCE | CUSTOM SOLUTIONS | BLOCKCHAIN</p>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <div class="block1 col-12 col-md-12 text-center">
+                        <div class="upLogoText">
+                            <p class="p1">E-COMMERCE | CUSTOM SOLUTIONS | BLOCKCHAIN</p>
+                        </div>
+                        <p class="p2"><span class="colortext">PINK</span>MUSH</p>
+                        <div class="downLogoText">
+                            <p class="p3">Web artisans who makes quality</p>
+                        </div>
+                    </div>
+                    <div class="hireUs col-4 col-md-4 text-center">
+                        <div class="btn">
+                            <a href="#" role="button" class="btn btn-secondary" data-toggle="popover"
+                               data-placement="bottom"
+                               title="CONTACTS:"
+                               data-content="info@pinkmush.com
+                    +7 (495) 000 00 00">HIRE US</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="logoText">
-                    <p class="p2"><span class="colortext">PINK</span>MUSH</p>
-                </div>
-                <div class="downLogoText">
-                <p class="p3">Web artisans who makes quality</p>
-                </div>
-            </div>
-            <div class="col-md-2 block2 text-left">
-                <p class="p4">CONTACTS</p>
-                <p class="p5">info@pinkmush.com</p>
-                <p class="p5">+7 (495) 000 00 00</p>
             </div>
         </div>
     </div>
 </div>
 
-
+<script src="JS/jquery-slim.min.js"></script>
+<script src="JS/popper.min.js"></script>
+<script src="JS/util.js"></script>
+<script src="JS/tooltip.js"></script>
+<script src="JS/popover.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -46,5 +60,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
 </body>
 </html>
