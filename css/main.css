@@ -67,6 +67,14 @@ html, body, .content {
     -moz-border-radius: 15px;
 }
 
+.btnHireUs > a:hover {
+    color: #90179d;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none!important;
+}
+
 .popover {
     background: #5a6167;
     border: #5a6167;
@@ -80,9 +88,9 @@ html, body, .content {
 .popover-header {
     background: #5a6167;
     border-bottom: 1px solid black;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -95,10 +103,7 @@ html, body, .content {
     border-bottom: 1px solid #5a6167;
 }
 
-.btnHireUs >a:hover {
-    color: #90179d;
+.btn:active {
+    box-shadow: none;
 }
 
-.a:active {
-    color: #90179d;
-}
