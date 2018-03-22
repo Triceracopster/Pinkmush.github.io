@@ -39,7 +39,7 @@ body {
     background-color: black;
 }
 
-html, body, .content {
+html, body, .content{
     height: 100%;
 }
 
@@ -47,21 +47,22 @@ html, body, .content {
     font-family: "VIBERSANS";
     margin-bottom: 0;
     color: #efefef;
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 .p2 {
+    text-indent:-18px;
     color: #efefef;
-    font-size: 60pt;
+    font-size: 72px;
     line-height: 66px;
     font-family: "SANSC";
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .p3 {
     font-family: "VIBERSANS";
     color: #efefef;
-    font-size: 14pt;
+    font-size: 13pt;
     margin-top: 3px;
     margin-bottom: 0;
 }
@@ -85,8 +86,35 @@ html, body, .content {
     background: #5a6167;
     margin: 0;
     border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
-.block1 {
-     height: 130px;
+.popover {
+    background: #5a6167;
+    border: #5a6167;
+    font-family: SANSC;
+    font-size: 10pt;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.popover-header {
+    background: #5a6167;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.popover .arrow::after {
+    border-bottom-color: #5a6167;
+}
+
+.bs-popover-auto[x-placement^=bottom] .popover-header::before, .bs-popover-bottom .popover-header::before {
+    border-bottom: 1px solid #5a6167;
 }
