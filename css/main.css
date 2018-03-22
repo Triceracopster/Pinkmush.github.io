@@ -80,9 +80,9 @@ html, body, .content {
 .popover-header {
     background: #5a6167;
     border-bottom: 1px solid black;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -93,4 +93,12 @@ html, body, .content {
 
 .bs-popover-auto[x-placement^=bottom] .popover-header::before, .bs-popover-bottom .popover-header::before {
     border-bottom: 1px solid #5a6167;
+}
+
+.btnHireUs >a:hover {
+    color: #90179d;
+}
+
+.a:active {
+    color: #90179d;
 }
