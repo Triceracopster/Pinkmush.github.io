@@ -1,29 +1,6 @@
 @font-face {
-    font-family: "UbuntuBold";
-    src: url("../fonts/UbuntuBold.eot");
-    src: url("../fonts/UbuntuBold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/UbuntuBold.woff") format("woff"),
-    url("../fonts/UbuntuBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "UbuntuBoldItalic";
-    src: url("../fonts/UbuntuBoldItalic.eot");
-    src: url("../fonts/UbuntuBoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/UbuntuBoldItalic.woff") format("woff"),
-    url("../fonts/UbuntuBoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "VIBERSANS";
-    src: url("../fonts/VIBERSANS.eot");
-    src: url("../fonts/VIBERSANS.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/VIBERSANS.woff") format("woff"),
-    url("../fonts/VIBERSANS.ttf") format("truetype");
+    font-family: "pollock2ctt";
+    src: url("../fonts/pollock2ctt.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -39,19 +16,18 @@ body {
     background-color: black;
 }
 
-html, body, .content{
+html, body, .content {
     height: 100%;
 }
 
 .p1 {
-    font-family: "VIBERSANS";
+    font-family: "pollock2ctt";
     margin-bottom: 0;
     color: #efefef;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .p2 {
-    text-indent:-18px;
     color: #efefef;
     font-size: 72px;
     line-height: 66px;
@@ -60,7 +36,7 @@ html, body, .content{
 }
 
 .p3 {
-    font-family: "VIBERSANS";
+    font-family: "pollock2ctt";
     color: #efefef;
     font-size: 13pt;
     margin-top: 3px;
@@ -82,13 +58,13 @@ html, body, .content{
 .btn {
     font-family: "SANSC";
     color: #efefef;
-    font-size: 16pt;
+    font-size: 14pt;
     background: #5a6167;
     margin: 0;
     border: none;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 
 .popover {
