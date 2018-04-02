@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "pollock2ctt";
+    src: url("../fonts/pollock2ctt.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SANSC";
+    src: url("../fonts/SANSC.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: black;
+}
+
+html, body, .content {
+    height: 100%;
+}
+
+.p1 {
+    font-family: "pollock2ctt";
+    margin-bottom: 0;
+    color: #efefef;
+    font-size: 12pt;
+}
+
+.p2 {
+    color: #efefef;
+    font-size: 72px;
+    line-height: 66px;
+    font-family: "SANSC";
+    margin-bottom: 0;
+}
+
+.p3 {
+    font-family: "pollock2ctt";
+    color: #efefef;
+    font-size: 13pt;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.p4 {
+    font-family: "SANSC";
+    color: #efefef;
+    font-size: 16pt;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.colortext {
+    color: #90179d;
+}
+
+.btn {
+    font-family: "SANSC";
+    color: #efefef;
+    font-size: 14pt;
+    background: #5a6167;
+    margin: 0;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.btnHireUs > a:hover {
+    color: #90179d;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none!important;
+}
+
+.popover {
+    background: #5a6167;
+    border: #5a6167;
+    font-family: SANSC;
+    font-size: 10pt;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.popover-header {
+    background: #5a6167;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.popover .arrow::after {
+    border-bottom-color: #5a6167;
+}
+
+.bs-popover-auto[x-placement^=bottom] .popover-header::before, .bs-popover-bottom .popover-header::before {
+    border-bottom: 1px solid #5a6167;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+

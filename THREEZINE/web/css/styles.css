@@ -1,0 +1,535 @@
+@font-face {
+    font-family: GraublauWeb;
+    src: url("../fonts/GraublauWeb-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url("../fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+/*Здесь все стили для Header*/
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 28px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dadada;
+}
+
+.home {
+    font-family: Verdana;
+    font-size: 9px;
+}
+
+.home > a {
+    text-decoration: none;
+    color: #000;
+    padding: 9px 5px;
+    float: left;
+    margin-left: 0;
+}
+
+.home > a:first-child {
+    padding-left: 0;
+}
+
+.social {
+    float: right;
+    margin: 7px;
+}
+
+.social > a {
+    padding: 6px 5px;
+}
+
+/*Здесь все стили для Content*/
+
+.content {
+    width: 100%;
+    height: 1842px;
+    background-color: #e9e9e9;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: GraublauWeb;
+    font-size: 29pt;
+    color: #919191;
+    margin: 40px 0;
+    float: left;
+    width: auto;
+}
+
+.menu {
+    font-family: YanoneKaffeesatz;
+    font-size: 13px;
+    height: 33px;
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 0 14px 0;
+    float: left;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #f9f9f9;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #5c5c5c;
+    padding: 10px 25px 10px 20px;
+    float: left;
+}
+
+.photoblock {
+    height: 283px;
+    width: 960px;
+    border-bottom: 1px solid #dadada;
+    background-color: #ffffff;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.photo {
+    width: 650px;
+    height: 263px;
+    background-image: url("../images/LSD.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 10px;
+    float: left;
+}
+
+.photos {
+    width: 270px;
+    height: 243px;
+    float: left;
+}
+
+.pb {
+    float: left;
+    width: 270px;
+    border-bottom: 1px dashed #c3c3c3;
+}
+
+.pb > img {
+    float: left;
+    margin: 10px;
+}
+
+.pb:last-child {
+    border: none;
+}
+
+.pbtype {
+    font-size: 17px;
+    font-family: "YanoneKaffeesatz";
+    color: grey;
+}
+
+.curabitur {
+    width: 650px;
+    height: 50px;
+    opacity: 0.7;
+    background-color: white;
+    float: left;
+    margin-top: 213px;
+}
+
+.p1 {
+    font-family: YanoneKaffeesatz;
+    font-size: 18px;
+    color: black;
+    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.p2 {
+    font-family: Verdana;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-bottom: 12px;
+    padding-top: 0;
+    margin: 0;
+    color: black;
+}
+
+/*Здесь все стили для leftSideBar*/
+
+.leftSideBar {
+    width: 220px;
+    float: left;
+}
+
+.posts {
+    height: 312px;
+    width: 220px;
+    margin: 7px 7px 7px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+}
+
+.p3 {
+    font-family: "YanoneKaffeesatz";
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px dashed #c3c3c3;
+    margin: 13px 10px 0 10px;
+    padding-bottom: 7px;
+}
+
+.rec {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 50px;
+    float: left;
+}
+
+.rectype {
+    font-size: 11px;
+    font-family: "YanoneKaffeesatz";
+    color: grey;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 18px;
+}
+
+.rec > img {
+    float: left;
+}
+
+.recent {
+    float: left;
+}
+
+.popular {
+    float: left;
+}
+
+.pop > img {
+    float: left;
+}
+
+.pop {
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 50px;
+    float: left;
+}
+
+.poptype {
+    font-size: 11px;
+    font-family: "YanoneKaffeesatz";
+    color: grey;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 18px;
+}
+
+.recentCOM {
+    width: 220px;
+    height: 207px;
+    margin: 7px 7px 14px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    float: left;
+}
+
+.rc1 {
+    font-family: YanoneKaffeesatz;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px dashed #c3c3c3;
+    margin: 13px 10px 0 10px;
+    padding-bottom: 7px;
+}
+
+.rc2 {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #717171;
+    margin: 15px 10px 0 10px;
+}
+
+.flickr {
+    width: 220px;
+    height: 176px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.flickr > p {
+    font-family: YanoneKaffeesatz;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px dashed #c3c3c3;
+    margin: 13px 10px 0 10px;
+    padding-bottom: 7px;
+}
+
+.flickPhoto {
+    height: 50px;
+    width: 60px;
+    background-color: #e8e8e8;
+    float: left;
+    margin: 0 5px 10px 5px;
+}
+
+.ph1, .ph2, .ph3 {
+    margin-top: 15px;
+}
+
+.ph1, .ph4 {
+    margin-left: 10px;
+}
+
+.twitter {
+    height: 180px;
+    width: 220px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    float: left;
+}
+
+.twitter > p:nth-child(2), .twitter > p:nth-child(3), .twitter > p:nth-child(4) {
+    font-family: Georgia;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic;
+    color: #9c9c9c;
+    margin-bottom: 14px;
+}
+
+.twitter > p:nth-child(4) {
+    margin-top: 21px;
+}
+
+.b1 {
+    color: #414141;
+    margin-top: 6px;
+}
+
+/*Здесь все стили для Central*/
+.central {
+    width: 491px;
+    margin: 7px 7px 15px 14px;
+    float: left;
+}
+
+.p4 {
+    font-family: YanoneKaffeesatz;
+    font-size: 19px;
+    color: black;
+    border-bottom: 1px dashed #c3c3c3;
+    margin: 0 10px;
+    padding-bottom: 13px;
+    padding-top: 15px;
+}
+
+.bigpost {
+    width: 491px;
+    height: 600px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+}
+
+.bigpostinfo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 469px;
+    height: 27px;
+    border-bottom: 1px dashed #c3c3c3;
+}
+
+.bigpostinfo > img {
+    width: 14px;
+    height: 14px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    float: left;
+}
+
+.bigpostinfo > p {
+    margin: 12px 18px 10px 7px;
+    float: left;
+
+}
+
+.p5 {
+    font-family: Verdana;
+    font-size: 7px;
+
+}
+
+.bigpostphoto {
+    width: 470px;
+    height: 262px;
+    margin: 15px 10px 16px 10px;
+    float: left;
+}
+
+.bigposttype {
+    width: 470px;
+    height: 212px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.p6 {
+    font-family: Verdana;
+    font-size: 9.5pt;
+    color: #7d7d7d;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+
+/*Здесь все стили для RightSideBar*/
+
+.rightSideBar {
+    width: 221px;
+    float: right;
+}
+
+.in1 {
+    margin: 15px 10px;
+    background-color: #e8e8e8;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+
+.search {
+    float: right;
+    width: 219px;
+    height: 96px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    margin: 7px 0 7px 7px;
+}
+
+.featured {
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+
+.tags {
+    width: 220px;
+    height: 200px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    margin: 7px 0 7px 7px;
+    float: right;
+}
+
+.tags1 {
+    width: 200px;
+    height: 135px;
+    margin: 15px 10px 15px 10px;
+    float: left;
+}
+
+.tags1 > a {
+    float: left;
+    font-family: Verdana;
+    font-size: 9px;
+    color: #717171;
+    padding: 6px 9px 7px 7px;
+    background-color: #e8e8e8;
+    text-decoration: none;
+    margin: 0 5px 5px 0;
+}
+
+.archives {
+    width: 220px;
+    height: 250px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    margin: 7px 0 7px 7px;
+    float: right;
+}
+
+.arctype {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin: 8px 0 8px 10px;
+}
+
+.advert {
+    width: 220px;
+    height: 275px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    margin: 7px 0 7px 7px;
+    float: right;
+}
+
+.advert > p {
+    margin-bottom: 15px;
+}
+
+.AdvPhoto {
+    height: 100px;
+    width: 200px;
+    background-color: #e8e8e8;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*Здесь всё для Footer*/
+
+.footer {
+    width: 100%;
+    height: 28px;
+    background-color: #ffffff;
+    border-top: 1px solid #dadada;
+    float: bottom;
+}
+
+.p7 {
+    font-family: Verdana;
+    font-size: 8px;
+    color: #898989;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+

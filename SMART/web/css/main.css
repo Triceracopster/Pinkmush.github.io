@@ -1,0 +1,289 @@
+.header {
+    background-color: #efefef;
+}
+
+.logo1 {
+    margin-top: 82px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+}
+
+.logo:first-letter {
+    color: #fd7e14;
+}
+
+.logo > a {
+    font-family: "Open Sans";
+    font-size: 21px;
+    color: #6b6b6b;
+    padding: 10px 17px;
+    margin-bottom: 0;
+    border: 4px solid #706b73;
+    text-decoration: none;
+}
+
+.icon1 {
+    margin-top: 82px;
+}
+
+.nameAndSlogan {
+    padding-top: 146px;
+    padding-bottom: 114px;
+}
+
+.lead {
+    font-family: "Open Sans";
+    font-size: 27px;
+    color: #6b6b6b;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.lead:first-child {
+    color: #fd7e14;
+    padding-right: 13px;
+}
+
+.small {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #6b6b6b;
+}
+
+.Message {
+    background-color: #ffffff;
+    margin-bottom: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    margin-top: 110px;
+}
+
+.send {
+    padding-top: 26px;
+    padding-bottom: 10px;
+}
+
+.send_a_message {
+    font-family: "Open Sans";
+    font-size: 12pt;
+    color: #6b6b6b;
+    display: inline;
+}
+
+.send_a_message:first-child {
+    color: #fd7e14;
+}
+
+.form {
+    font-family: "Open Sans";
+}
+
+.form > input {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 13px 0 14px 0;
+}
+
+.form-control:last-child {
+    height: 86px;
+}
+
+.form > button {
+    background-color: #ff5c36;
+    color: white;
+    margin: 20px 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+.working_progress {
+    background-color: #ffffff;
+    padding-bottom: 180px;
+}
+
+.work_prog {
+    height: 263px;
+    margin-right: 15px;
+    font-family: "Open Sans";
+
+}
+
+.work_prog > img {
+    width: 45px;
+    height: 45px;
+    margin-top: 60px;
+}
+
+.wp1 {
+    background-color: #4eb2f7;
+}
+
+.wp2 {
+    background-color: #c049f8;
+
+}
+
+.wp3 {
+    background-color: #817eff;
+}
+
+.wp4 {
+    background-color: #f74770;
+}
+
+.wptype1 {
+    font-size: 11pt;
+    color: #f3f2ff;
+    padding-top: 24px;
+}
+
+.wptype2 {
+    font-size: 8pt;
+    color: #dfdfff;
+    padding-top: 24px;
+}
+
+.btn1 {
+    font-size: 10pt;
+    background-color: #ffffff;
+    color: #4c4c4c;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.FeaturedWorks {
+    background-color: #efefef;
+    padding-bottom: 170px;
+
+}
+
+.fw {
+    background-color: #ff5c36;
+    margin: 15px;
+    height: 358px;
+}
+
+.services {
+    background-color: white;
+    padding-bottom: 180px;
+}
+
+.swp {
+    background-color: #fbfbfb;
+    margin: 3px 0;
+    height: 91px;
+}
+
+.swp > img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.lead1 {
+    font-family: "Open Sans";
+    font-size: 16pt;
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.swptxt {
+    font-family: "Open Sans";
+    font-size: 16pt;
+    border-bottom: 3px solid #ff5c36;
+    margin-right: 0;
+}
+
+.lead2 {
+    font-family: "Open Sans";
+    font-size: 11pt;
+    padding-top: 19px;
+}
+
+.btn2 {
+    font-size: 10pt;
+    background-color: #ffffff;
+    color: #4c4c4c;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #ededed;
+    margin-top: 10px;
+
+}
+
+.Team {
+    background-color: #efefef;
+    padding-bottom: 180px;
+}
+
+.tm {
+    width: 100%;
+    height: 445px;
+    margin: 0 15px;
+}
+
+.tm1 {
+    background-color: #ff5c36;
+    border: 1px solid #d9d9d9;
+}
+
+.tm2 {
+    background-color: #fff3f0;
+}
+
+.tm3 {
+    background-color: #ff5c36;
+    border: 1px solid #d9d9d9;
+}
+
+.tmname1, .tmname2 {
+    background-color: white;
+    height: 95px;
+    margin-top: 373px;
+}
+
+.tmname1 > p, .tmname2 > p {
+    padding-top: 17px;
+    margin: 0;
+}
+
+.images {
+    padding-top: 170px;
+}
+
+.name {
+    font-family: "Open Sans";
+    font-size: 17pt;
+}
+
+.name1 {
+    font-family: "Open Sans";
+    font-size: 17pt;
+    padding-top: 89px;
+}
+
+.specialization {
+    font-family: "Open Sans";
+    font-size: 10pt;
+}
+
+.specialization1 {
+    font-family: "Open Sans";
+    font-size: 10pt;
+    color: #ffbdab;
+}
+
+.slider {
+    background-color: #ffffff;
+}
