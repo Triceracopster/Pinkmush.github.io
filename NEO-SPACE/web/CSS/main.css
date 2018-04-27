@@ -1,0 +1,117 @@
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header {
+    background-color: black;
+}
+
+.logo {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.menu p {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    margin: 20px 15px;
+    color: #c3c3c3;
+}
+
+.menu p:last-child:hover {
+    border-bottom: none;
+}
+
+.menu p:hover {
+    border-bottom: 3px solid orange;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+.nameP {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 75px 0;
+    color: #c3c3c3;
+}
+
+.nameLogo {
+    color: #ffad39;
+}
+
+.sloganP {
+    font-family: 'Courgette', cursive;
+    margin-right: 15px;
+    color: #c3c3c3;
+}
+
+.content {
+    background-color: cornsilk;
+}
+
+.slogan2P {
+    font-family: 'Courgette', cursive;
+}
+
+.thingswecan {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ourWorks {
+    background-color: black;
+}
+
+.ourProjectsP {
+    font-family: "Open Sans Condensed";
+    font-size: 40px;
+    color: #c3c3c3;
+    margin: 30px 0;
+}
+
+.ourProjectsP2 {
+    font-family: 'Open Sans Condensed';
+    font-size: 24px;
+    color: #c3c3c3;
+    margin: 30px;
+}
+
+.aboutUs {
+    background-color: cornsilk;
+}
+
+.aboutComp {
+    font-family: "Segoe UI Semibold";
+    font-size: 18px;
+}
+
+.aboutCompany {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.slider2 {
+
+}
+
+.slider2-slide {
+    width: 300px;
+    height: 400px;
+    padding-left: 10px;
+}
+
+.slider2Image {
+    width: 100%;
+    height: 100%;
+}
+
+.slider2text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    color: #c3c3c3;
+}
