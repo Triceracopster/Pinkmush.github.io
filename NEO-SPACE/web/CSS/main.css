@@ -25,7 +25,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
     margin: 20px 15px;
-    color: #c3c3c3;
+    color: #ededed;
 }
 
 .menu p:last-child:hover {
@@ -33,33 +33,34 @@ html {
 }
 
 .menu p:hover {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #fe5e00;
 }
 
 .menu a {
     text-decoration: none;
-    color: #c3c3c3;
+    color: #ededed;
 }
 
 .nameP {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     margin: 75px 0;
-    color: #c3c3c3;
+    color: #ededed;
 }
 
 .nameLogo {
-    color: #ffad39;
+    color: #fe5e00;
 }
 
 .sloganP {
     font-family: 'Courgette', cursive;
     margin-right: 15px;
-    color: #c3c3c3;
+    color: #ededed;
 }
 
+/*Стадийность работ*/
 .content {
-    background-color: cornsilk;
+    background-color: #ededed;
 }
 
 .slogan2P {
@@ -70,6 +71,16 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+.thingswecanP:first-child {
+    font-size: 28px;
+    margin-left: 0;
+}
+
+.thingswecanP {
+    font-size: 24px;
+    margin-left: 10px;
+}
+/*Наши работы*/
 .ourWorks {
     background-color: black;
 }
@@ -77,19 +88,20 @@ html {
 .ourProjectsP {
     font-family: "Open Sans Condensed";
     font-size: 40px;
-    color: #c3c3c3;
+    color: #ededed;
     margin: 30px 0;
 }
 
 .ourProjectsP2 {
     font-family: 'Open Sans Condensed';
     font-size: 24px;
-    color: #c3c3c3;
+    color: #ededed;
     margin: 30px;
 }
 
 .aboutUs {
-    background-color: cornsilk;
+    background-color: #ededed;
+
 }
 
 .aboutComp {
@@ -120,5 +132,5 @@ html {
 .slider2text {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 28px;
-    color: #c3c3c3;
+    color: #ededed;
 }
