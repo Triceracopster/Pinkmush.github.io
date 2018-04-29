@@ -60,15 +60,11 @@ html {
 
 /*Стадийность работ*/
 .content {
-    background-color: #ededed;
+    background-color: #ebebeb;
 }
 
 .slogan2P {
     font-family: 'Courgette', cursive;
-}
-
-.thingswecan {
-    font-family: 'Open Sans', sans-serif;
 }
 
 .thingswecanP:first-child {
@@ -80,40 +76,29 @@ html {
     font-size: 24px;
     margin-left: 10px;
 }
+
 /*Наши работы*/
 .ourWorks {
     background-color: black;
 }
 
 .ourProjectsP {
-    font-family: "Open Sans Condensed";
+    font-family: 'Open Sans Condensed';
     font-size: 40px;
     color: #ededed;
     margin: 30px 0;
 }
 
-.ourProjectsP2 {
-    font-family: 'Open Sans Condensed';
-    font-size: 24px;
+/*Заголовки слайдеров*/
+.slidertext {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
     color: #ededed;
-    margin: 30px;
 }
 
-.aboutUs {
-    background-color: #ededed;
+/*Слайдер 1*/
 
-}
-
-.aboutComp {
-    font-family: "Segoe UI Semibold";
-    font-size: 18px;
-}
-
-.aboutCompany {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
+/*Слайдер 2*/
 .slider2 {
 
 }
@@ -129,8 +114,31 @@ html {
     height: 100%;
 }
 
-.slider2text {
+.slidertext {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 28px;
     color: #ededed;
+}
+
+/*Слайдер 3*/
+
+.ourProjectsP2 {
+    font-family: 'Open Sans Condensed';
+    font-size: 24px;
+    color: #ededed;
+    margin: 30px;
+}
+/*О нас*/
+.aboutUs {
+    background-color: #ebebeb;
+}
+
+.aboutComp {
+    font-family: 'Segoe UI Semibold';
+    font-size: 18px;
+}
+
+.aboutCompany {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
