@@ -1,18 +1,14 @@
-html {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
 /*Голова сайта*/
 .header {
-    background-color: black;
+    background-color: #fe5e00;
 }
 
 .logo {
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 220px;
-    height: 80px;
+    width: 250px;
+    height: 100px;
 }
 
 .logo img {
@@ -22,40 +18,47 @@ html {
 
 .menu p {
     display: inline;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15pt;
+    font-size: 18.5pt;
+    font-family: 'Oswald', sans-serif;
     margin: 20px 15px;
-    color: #ededed;
-}
-
-.menu p:last-child:hover {
-    border-bottom: none;
+    color: black;
 }
 
 .menu p:hover {
-    border-bottom: 3px solid #fe5e00;
+    border-bottom: 3px solid white;
 }
 
 .menu a {
     text-decoration: none;
-    color: #ededed;
+    color: black;
 }
 
 .nameP {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
-    margin: 75px 0;
-    color: #ededed;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40pt;
+    color: black;
 }
 
-.nameLogo {
-    color: #fe5e00;
+.whitespan {
+    color: #ffffff;
+}
+
+.phoneNum {
+
+}
+
+.phoneNum p {
+    font-family: 'Gugi', sans-serif;
+    font-size: 20pt;
+    color: black;
+
 }
 
 .sloganP {
-    font-family: 'Courgette', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
     margin-right: 15px;
-    color: #ededed;
+    color: black;
 }
 
 /*Стадийность работ*/
@@ -64,39 +67,84 @@ html {
 }
 
 .slogan2P {
-    font-family: 'Courgette', cursive;
+    font-family: 'Oswald', cursive;
+    font-size: 15pt;
 }
 
 .thingswecanP:first-child {
     font-size: 28px;
+    margin-top: 20px;
     margin-left: 0;
 }
 
 .thingswecanP {
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.thingswecanP:last-child {
+    margin-bottom: 100px;
 }
 
 /*Наши работы*/
 .ourWorks {
-    background-color: black;
+    background-color: #ebebeb;
 }
 
 .ourProjectsP {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Oswald', sans-serif;
     font-size: 40px;
-    color: #ededed;
+    color: black;
     margin: 30px 0;
 }
 
 /*Заголовки слайдеров*/
 .slidertext {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 28px;
-    color: #ededed;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    color: black;
 }
 
 /*Слайдер 1*/
+.slider {
+
+}
+
+.slider-slide {
+    width: 1000px;
+    height: 500px;
+    /*position: relative;*/
+}
+
+.sliderImage {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: black;
+    text-align: left;
+
+}
+
+.sliderZag {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18pt;
+    color: #ebebeb;
+    margin-left: 30px;
+
+}
+
+.sliderDesc {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    color: #ebebeb;
+    margin-left: 30px;
+}
 
 /*Слайдер 2*/
 .slider2 {
@@ -114,27 +162,22 @@ html {
     height: 100%;
 }
 
-.slidertext {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 28px;
-    color: #ededed;
-}
-
 /*Слайдер 3*/
 
 .ourProjectsP2 {
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 24px;
-    color: #ededed;
+    color: black;
     margin: 30px;
 }
+
 /*О нас*/
 .aboutUs {
     background-color: #ebebeb;
 }
 
 .aboutComp {
-    font-family: 'Segoe UI Semibold';
+    font-family: 'Segoe UI Semibold', serif;
     font-size: 18px;
 }
 
