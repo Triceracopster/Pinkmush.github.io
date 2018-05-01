@@ -11,7 +11,7 @@ $(document).ready(function(){
     });
     // Второй слайдер
     $('.slider2').slick({
-        lazyLoad: 'progressive',
+        lazyLoad: 'ondemand',
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
