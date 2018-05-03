@@ -1,6 +1,6 @@
 /*Голова сайта*/
 .header {
-    background-color: #fe5e00;
+    background-color: orange;
 }
 
 .logo {
@@ -113,7 +113,6 @@
 .slider-slide {
     width: 1000px;
     height: 500px;
-    /*position: relative;*/
 }
 
 .sliderImage {
@@ -121,6 +120,7 @@
     height: 100%;
 }
 
+/*Подписи для слайдеров*/
 .slider-text {
     position: absolute;
     bottom: 0;
@@ -128,7 +128,6 @@
     width: 100%;
     color: black;
     text-align: left;
-
 }
 
 .sliderZag {
@@ -146,14 +145,34 @@
     margin-left: 30px;
 }
 
+/*Стрелки слайдеров*/
+.slick-prev, .slick-next {
+    z-index: 1001;
+    width: 32px;
+    height: 32px;
+}
+
+.slick-next:before, .slick-prev:before{
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+.slick-prev {
+    left: 25px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
 /*Слайдер 2*/
 .slider2 {
 
 }
 
 .slider2-slide {
-    width: 300px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
     padding-left: 10px;
 }
 
@@ -163,6 +182,20 @@
 }
 
 /*Слайдер 3*/
+.slider3 {
+
+}
+
+.slider3-slide {
+    width: 300px;
+    height: 400px;
+    padding-left: 10px;
+}
+
+.slider3Image {
+    width: 100%;
+    height: 100%;
+}
 
 .ourProjectsP2 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -177,11 +210,11 @@
 }
 
 .aboutComp {
-    font-family: 'Segoe UI Semibold', serif;
-    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
 }
 
 .aboutCompany {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
 }

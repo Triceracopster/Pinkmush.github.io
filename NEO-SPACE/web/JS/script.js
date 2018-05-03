@@ -1,7 +1,6 @@
 $(document).ready(function(){
     //Первый слайдер
     $('.slider').slick({
-        dots: true,
         infinite: true,
         speed: 500,
         fade: true,
@@ -20,5 +19,12 @@ $(document).ready(function(){
         speed: 500,
     });
     // Третий слайдер
-    $('.slider3').slick({});
+    $('.slider3').slick({
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 10000,
+    });
 });
