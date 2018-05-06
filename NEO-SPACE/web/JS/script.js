@@ -28,3 +28,7 @@ $(document).ready(function(){
         autoplaySpeed: 10000,
     });
 });
+
+jQuery(document).ready(function () {
+$("div.menu a").mPageScroll2id();
+});
