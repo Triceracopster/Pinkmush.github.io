@@ -7,6 +7,15 @@ $(document).ready(function(){
         cssEase: 'linear',
         autoplay: true,
         autoplaySpeed: 10000,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
     // Второй слайдер
     $('.slider2').slick({
@@ -17,6 +26,15 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 7000,
         speed: 500,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
     // Третий слайдер
     $('.slider3').slick({
@@ -26,6 +44,15 @@ $(document).ready(function(){
         cssEase: 'linear',
         autoplay: true,
         autoplaySpeed: 10000,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 });
 

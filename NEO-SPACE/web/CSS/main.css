@@ -167,7 +167,7 @@
 }
 
 .sl2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -224,6 +224,7 @@
     font-size: 22pt;
     color: black;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .contactsMail p {
@@ -231,4 +232,24 @@
     font-size: 22pt;
     color: black;
     margin-top: 5px;
+}
+/*Кнопка скачать*/
+.btn {
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.butnDesc {
+    text-align: left;
+}
+
+.butnDesc p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18pt;
+}
+
+.adress p {
+    font-family: 'Gugi', sans-serif;
+    font-size: 14pt;
+    color: black;
 }
