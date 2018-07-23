@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "PoiretOne";
+    src: url("../fonts/PoiretOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header {
+    background-color: #052e42;
+    height: 100px;
+}
+
+.logo {
+    width: 250px;
+    height: 90px;
+}
+
+.logo img {
+    margin-top: 5px;
+    width: 250px;
+    height: 90px;
+}
+
+.contacts {
+
+}
+
+.contacts p {
+    display: inline;
+    font-size: 18.5pt;
+    font-family: PoiretOne;
+    color: ghostwhite;
+    margin-right: 5px;
+}
+
+.menu {
+
+}
+
+.menu p {
+    display: inline;
+    font-size: 18.5pt;
+    font-family: PoiretOne;
+    color: ghostwhite;
+    margin: 0 5px;
+    border-bottom: 1px solid deepskyblue;
+
+}
+
+.menu p:hover {
+    border-bottom: 3px solid deepskyblue;
+}
+
+.menu a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.ourOffer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+}
+
+.offer {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.offer p {
+    font-family: PoiretOne;
+    font-size: 35pt;
+    color: black;
+}
+
+.project4, .project5, .project6 {
+    margin-bottom: 20px;
+}
+
+.project1 img, .project2 img, .project3 img, .project4 img, .project5 img, .project6 img {
+    height: 150px;
+    width: 250px;
+    margin-bottom: 30px;
+    border: 1px solid #052e42;
+}
+
+.btnProject1, .btnProject2, .btnProject3, .btnProject4, .btnProject5, .btnProject6 {
+    position: relative;
+    bottom: -75px;
+    right: 185px;
+    color: #052e42;
+}
+
+.aboutOffer p {
+    font-family: PoiretOne;
+    font-size: 25pt;
+    color: black;
+}
+
+.sale {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+}
+
+.form1 {
+    font-family: PoiretOne;
+    font-size: 25pt;
+    color: black;
+}
