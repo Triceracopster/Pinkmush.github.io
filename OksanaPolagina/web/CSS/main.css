@@ -1,0 +1,52 @@
+/*Шапка сайта*/
+.header {
+}
+
+.logo {
+
+}
+
+.phoneNum {
+
+}
+
+.phoneNum p {
+    font-size: 20pt;
+}
+
+.menu {
+    background-color: #9b3a8b;
+    height: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu p {
+    display: inline;
+    color: black;
+    font-size: 18pt;
+    margin-right: 150px;
+}
+
+.menu p:hover {
+    border-bottom: 3px solid white;
+}
+
+.slick {
+    padding: 0;
+    margin: 0;
+}
+
+.slider-slide {
+    width: 100%;
+    height: 500px;
+}
+
+.sliderImage {
+    width: 100%;
+    height: 100%;
+}
+
