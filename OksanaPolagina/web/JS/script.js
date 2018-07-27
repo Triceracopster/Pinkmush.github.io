@@ -4,6 +4,6 @@ $(document).ready(function() {
         speed: 1000,
         fade: true,
         arrows: false,
-
+        centerMode: true,
     })
 });

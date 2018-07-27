@@ -14,6 +14,7 @@
     font-size: 20pt;
 }
 
+/*Меню сайта*/
 .menu {
     background-color: #9b3a8b;
     height: 40px;
@@ -35,6 +36,12 @@
     border-bottom: 3px solid white;
 }
 
+/*Слайдер главной страницы*/
+
+.slider {
+    height: 370px;
+}
+
 .slick {
     padding: 0;
     margin: 0;
@@ -42,7 +49,7 @@
 
 .slider-slide {
     width: 100%;
-    height: 500px;
+    height: 370px;
 }
 
 .sliderImage {
@@ -50,3 +57,19 @@
     height: 100%;
 }
 
+/*Консультация*/
+
+.consultation {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#9b3a8b, white, #9b3a8b)
+}
+
+.cons {
+
+}
+
+.cons p {
+    font-size: 20pt;
+    margin-bottom: 40px;
+}
