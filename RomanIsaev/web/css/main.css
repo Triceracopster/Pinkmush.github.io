@@ -1,0 +1,248 @@
+@media (min-width: 100px) and (max-width: 1023px) {
+    #bgSmall {
+        background: none;
+    }
+
+    #bgSmall1 {
+        border: none;
+        text-align: justify;
+    }
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/MullerBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MullerLight";
+    src: url("../fonts/MullerLight.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header {
+    background-color: #f9f9f9;
+}
+
+.bg {
+    height: 48rem;
+    background-size: cover;
+    background: #f9f9f9 url("../images/headerBg.jpg") no-repeat center left;
+    min-width: 100%;
+}
+
+.name {
+    margin-top: 10rem;
+    font-size: 4rem;
+    font-family: MullerBold, serif;
+}
+
+.desc {
+    font-size: 2rem;
+    font-family: MullerLight, serif;
+}
+
+.social img {
+    height: 70px;
+    width: 70px;
+}
+
+.social a {
+    border: none !important;
+}
+
+.menu {
+
+}
+
+.menuBtn {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.about {
+    background: url(../images/bg01.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.music {
+    display: inline-block;
+    width: 10rem;
+    height: 4rem;
+}
+
+.music img {
+    width: 100%;
+}
+
+.aboutText {
+    padding: 4rem 2rem 2rem 3rem;
+    margin: 2rem 2rem;
+    border: 1px #fafafa solid;
+}
+
+.aboutTitle {
+    padding-top: 1rem;
+    font-family: MullerBold, serif;
+    font-size: 1.2rem;
+}
+
+.aboutDesc {
+    font-family: MullerLight, serif;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.photos {
+    background: #fafafa url(../images/bg02.png) no-repeat;
+    background-size: cover;
+}
+
+.photosTitle {
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: "MullerBold", serif;
+    font-size: 2rem;
+}
+
+/*Слайдер 1*/
+.slider {
+    width: 95%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: white;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.sliderImage {
+    width: 100%;
+    height: auto;
+}
+
+.center .slick-center img {
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.btn-outline-secondary {
+    margin-top: -10em;
+    width: 3em;
+    height: 3em;
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-outline-secondary:active {
+    border: none !important;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.btn-outline-secondary:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.btn-outline-secondary:hover {
+    background: #333333;
+}
+
+.videos {
+    background: url(../images/bg03.png) no-repeat center center;
+    background-size: cover;
+}
+
+.videosTitle {
+    color: white;
+    padding-top: 5rem;
+    font-family: "MullerBold", serif;
+    font-size: 2rem;
+}
+
+/*Слайдер 2*/
+
+.center .slick-center iframe {
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.arrows2 {
+    margin-bottom: 2rem;
+}
+
+.btnSlider2 {
+    color: white;
+}
+
+.btnSlider2:hover {
+    background: #0e0e0e;
+}
+
+.slider2Item {
+    width: 26rem;
+    height: 20rem;
+}
+
+.contacts {
+    background-color: #f9f9f9;
+}
+
+.contactsTitle {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-family: MullerBold, serif;
+}
+
+.contactsDesc {
+    font-size: 1.4rem;
+    font-family: MullerLight, serif;
+}
+
+.adv {
+    background: black;
+}
+
+.adv p {
+    font-family: MullerLight, serif;
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    margin: 1rem;
+}
+
+.adv a {
+    color: #fafafa;
+    text-decoration: underline;
+}
