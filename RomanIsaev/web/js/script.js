@@ -16,7 +16,6 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: false,
                     slidesToShow: 1
                 }
             }
@@ -35,8 +34,9 @@ $(document).ready(function () {
         nextArrow: '<button id="next" type="button" class="btn btn-outline-secondary btnSlider2 btnRight" aria-pressed="false" autocomplete="on"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 1130,
                 settings: {
+                    centerMode: false,
                     slidesToShow: 1
                 }
             }
