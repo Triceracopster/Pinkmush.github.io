@@ -90,7 +90,7 @@
 }
 
 .dropdown-item a {
-    font-family: MullerLight, serif;
+    font-family: MullerBold, serif;
     font-size: 1.5rem;
 }
 
@@ -241,12 +241,12 @@
 }
 
 .slider2Item {
-    width: 640px;
-    height: 480px;
+    width: 40rem;
+    height: 30rem;
 }
 
 .slider2Item iframe {
-    width: 100%;
+    min-width: 100%;
     height: 100%;
 }
 
