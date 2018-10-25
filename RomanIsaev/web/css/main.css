@@ -1,6 +1,13 @@
-@media (min-width: 100px) and (max-width: 1023px) {
+@media (min-width: 100px) and (max-width: 940px) {
     #bgSmall {
-        background: none;
+        background: url("../images/bgAdaptive.jpg") no-repeat 100% 10%;
+        background-size: cover;
+        /*min-height:  100%;*/
+    }
+    #bgSmall p {
+        font-family: MullerBold, serif;
+        justify-content: center;
+        color: #fafafa;
     }
 
     #bgSmall1 {
@@ -35,7 +42,7 @@
 }
 
 .name {
-    margin-top: 10rem;
+    margin-top: 17rem;
     font-size: 4rem;
     font-family: MullerBold, serif;
 }
@@ -93,13 +100,13 @@
     color: white;
 }
 
-.music {
+.musicBtn {
     display: inline-block;
     width: 10rem;
     height: 4rem;
 }
 
-.music img {
+.musicBtn img {
     width: 100%;
 }
 
@@ -147,16 +154,16 @@
     color: white;
 }
 
-.slick-slide {
+.slick-slide .slider1{
     transition: all ease-in-out .3s;
     opacity: .2;
 }
 
-.slick-active {
+.slick-active .slider1 {
     opacity: .5;
 }
 
-.slick-current {
+.slick-current .slider1 {
     opacity: 1;
 }
 
@@ -234,14 +241,25 @@
 }
 
 .slider2Item {
-    width: 560px;
-    height: 280px;
+    width: 640px;
+    height: 480px;
 }
 
 .slider2Item iframe {
     width: 100%;
     height: 100%;
 }
+
+.music {
+    background-color: #fafafa;
+}
+
+.musicTitle {
+    padding-top: 3rem;
+    font-family: "MullerBold", serif;
+    font-size: 2rem;
+}
+
 
 .contacts {
     background-color: #f9f9f9;
