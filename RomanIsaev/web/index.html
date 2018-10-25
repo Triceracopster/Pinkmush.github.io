@@ -21,7 +21,18 @@
         <div class="row">
 
             <div class="col-xl-12 col-lg-8 col-12 text-right bg" id="bgSmall">
-                <button type="button" class="btn menuBtn"><i class="fas fa-bars fa-2x"></i></button>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars fa-2x"></i>
+                        </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#about">Об исполнителе</a>
+                        <a class="dropdown-item" href="#photos">Фото</a>
+                        <a class="dropdown-item" href="#videos">Видео</a>
+                        <a class="dropdown-item" href="#contacts">Контакты</a>
+                    </div>
+                </div>
                 <p class="name">РОМАН ИСАЕВ</p>
                 <p class="desc">ПЕВЕЦ | АВТОР ПЕСЕН</p>
                 <a class="social" href="https://www.youtube.com/user/Ram1z86"><img src="images/youtube.png" alt=""></a>
@@ -32,7 +43,7 @@
         </div>
     </div>
 </div>
-<div class="about">
+<div class="about" id="about">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-xl-11 col-12 aboutText" id="bgSmall1">
@@ -44,7 +55,7 @@
                     <br>
                     - резидент ТНТ-Мьюзик <br>
                     - автор песен и участник таких известных телепроектов, как «Голос», "Новая Звезда», гранд-финалист
-                    шоу "Большая Перемена»,
+                    шоу "Большая Перемена»
                     <br>
                     - Лауреат международного конкурса "Start up» (Финляндия) <br>
                     - Чемпион России "KWC" (Karaoke World Championships) <br>
@@ -60,11 +71,10 @@
                 </div>
                 </p>
             </div>
-
         </div>
     </div>
 </div>
-<div class="photos">
+<div class="photos" id="photos">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-10 photosTitle text-right">
@@ -86,7 +96,7 @@
         </div>
     </div>
 </div>
-<div class="videos">
+<div class="videos" id="videos">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-10 videosTitle text-right">
@@ -111,7 +121,7 @@
                         <iframe src="https://www.youtube.com/embed/h0PROF9-mEI" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
-                    <div class=slider2Item">
+                    <div class="slider2Item">
                         <iframe src="https://www.youtube.com/embed/hTY1vlK0cXU" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -133,7 +143,7 @@
         </div>
     </div>
 </div>
-<div class="contacts">
+<div class="contacts" id="contacts">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">

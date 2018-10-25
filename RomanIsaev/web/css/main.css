@@ -58,10 +58,33 @@
 
 }
 
-.menuBtn {
-    background-color: transparent;
+.dropdown {
+    background: transparent;
+}
+
+.dropdown-toggle {
+    background: transparent;
     border: none;
-    color: black;
+    color: black
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.dropdown-toggle:active {
+    border: none;
+    box-shadow: none;
+}
+
+.dropdown-item a {
+    font-family: MullerLight, serif;
+    font-size: 1.5rem;
 }
 
 .about {
@@ -211,13 +234,13 @@
 }
 
 .slider2Item {
-    width: 26rem;
-    height: 20rem;
+    width: 560px;
+    height: 280px;
 }
 
-.slider2Item {
+.slider2Item iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .contacts {

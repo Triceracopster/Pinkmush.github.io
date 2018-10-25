@@ -43,3 +43,7 @@ $(document).ready(function () {
         ]
     });
 });
+
+jQuery(document).ready(function () {
+    $("div.dropdown-menu a").mPageScroll2id();
+});
