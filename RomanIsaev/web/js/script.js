@@ -14,7 +14,7 @@ $(document).ready(function () {
         nextArrow: '<button id="next" type="button" class="btn btn-outline-secondary btnRight" aria-pressed="false" autocomplete="on"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>',
         responsive: [
             {
-                breakpoint: 940,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 1,
                     fade: true
