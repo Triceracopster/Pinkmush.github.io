@@ -10,42 +10,44 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Роман Исаев</title>
+    <base target="_blank">
 </head>
 <body>
 <div class="header ">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-12 col-lg-8 col-12 text-right bg" id="bgSmall">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-bars fa-2x"></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#about">Об исполнителе</a>
-                        <a class="dropdown-item" href="#photos">Фото</a>
-                        <a class="dropdown-item" href="#videos">Видео</a>
-                        <a class="dropdown-item" href="#music">Музыка</a>
-                        <a class="dropdown-item" href="#contacts">Контакты</a>
+                <nav class="navbar navbar-expand-xl">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation" id="navbar-toggler">
+                        <i class="navbar-toggler-icon fas fa-bars fa-2x"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="#about" target="_self">Обо мне</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#photos" target="_self">Фото</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#videos" target="_self">Видео</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#music" target="_self">Музыка</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts" target="_self">Контакты</a></li>
+                        </ul>
                     </div>
-                </div>
+                </nav>
                 <p class="name">РОМАН ИСАЕВ</p>
                 <p class="desc">ПЕВЕЦ | АВТОР ПЕСЕН</p>
-                <a class="social" href="https://www.youtube.com/user/Ram1z86"><img src="images/youtube.png" alt=""></a>
-                <a class="social" href="https://vk.com/romanisaew"><img src="images/vk.png" alt=""></a>
-                <a class="social" href="https://www.instagram.com/romanisaew"><img src="images/instagram.png"
-                                                                                   alt=""></a>
+                <a class="social" id="social" href="https://www.youtube.com/user/Ram1z86"><i class="fab fa-3x fa-youtube"></i></a>
+                <a class="social" id="social" href="https://vk.com/romanisaew"><i class="fab fa-3x fa-vk"></i></a>
+                <a class="social" id="social" href="https://www.instagram.com/romanisaew"><i class="fab fa-3x fa-instagram"></i></a>
             </div>
         </div>
     </div>
 </div>
 <div class="about" id="about">
     <div class="container-fluid">
-        <div class="about1"><img src="images/01.png" alt=""></div>
         <div class="row justify-content-center">
             <div class="col-xl-11 col-12 aboutText" id="bgSmall1">
                 <p class="aboutTitle">ОБ ИСПОЛНИТЕЛЕ</p>
@@ -82,7 +84,6 @@
 </div>
 <div class="photos" id="photos">
     <div class="container-fluid">
-        <div class="photos1"><img src="images/02.png" alt=""></div>
         <div class="row justify-content-center">
             <div class="col-10 photosTitle text-right">
                 <p>ФОТО</p>
@@ -105,7 +106,6 @@
 </div>
 <div class="videos" id="videos">
     <div class="container-fluid">
-        <div class="videos1"><img src="images/03.png" alt=""></div>
         <div class="row justify-content-center">
             <div class="col-10 videosTitle text-right">
                 <p>ВИДЕО</p>
@@ -153,7 +153,6 @@
 </div>
 <div class="music" id="music">
     <div class="container-fluid">
-        <div class="music1"><img src="images/04.png" alt=""></div>
         <div class="row justify-content-center">
             <div class="col-10 musicTitle text-right">
                 <p>МУЗЫКА</p>
@@ -301,10 +300,10 @@
                 <p class="contactsDesc">Организация выступлений или концертов: <br>
                     +79268251806 <br>
                     isaevmusic@mail.ru</p>
-                <a class="social" href="https://www.youtube.com/user/Ram1z86"><img src="images/youtube.png" alt=""></a>
-                <a class="social" href="https://vk.com/romanisaew"><img src="images/vk.png" alt=""></a>
-                <a class="social" href="https://www.instagram.com/romanisaew"><img src="images/instagram.png"
-                                                                                   alt=""></a>
+                <a class="social" href="https://www.youtube.com/user/Ram1z86"><i class="fab fa-2x fa-youtube"></i></a>
+                <a class="social" href="https://vk.com/romanisaew"><i class="fab fa-2x fa-vk"></i></a>
+                <a class="social" href="https://www.instagram.com/romanisaew"><i class="fab fa-2x fa-instagram"></i></a>
+
             </div>
             <div class="w-100"></div>
             <div class="col-12 adv text-center">

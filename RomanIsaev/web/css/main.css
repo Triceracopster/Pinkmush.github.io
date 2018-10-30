@@ -1,6 +1,6 @@
-@media (min-width: 100px) and (max-width: 940px) {
+@media (min-width: 100px) and (max-width: 980px) {
     #bgSmall {
-        background: url("../images/bgAdaptive.jpg") no-repeat 100% 10%;
+        background: url("../images/bgAdaptive.jpg") no-repeat 100% 30%;
         background-size: cover;
         /*min-height:  100%;*/
     }
@@ -14,6 +14,22 @@
     #bgSmall1 {
         border: none;
         text-align: justify;
+    }
+
+    #navbar-toggler {
+        color: #fafafa;
+    }
+
+    #social {
+        color: #fafafa;
+    }
+
+    .name {
+        margin-top: 8.8rem!important;
+    }
+
+    .navbar-nav a {
+        color: #fafafa!important;
     }
 }
 
@@ -40,12 +56,15 @@
     background-size: cover;
     background: #f9f9f9 url("../images/headerBg.jpg") no-repeat center left;
     min-width: 100%;
+    padding-right: 0.2rem;
+
 }
 
 .name {
-    margin-top: 17rem;
+    margin-top: 18rem;
     font-size: 4rem;
     font-family: MullerBold, serif;
+    margin-bottom: -0.5rem;
 }
 
 .desc {
@@ -53,32 +72,75 @@
     font-family: MullerLight, serif;
 }
 
-.social img {
-    height: 70px;
-    width: 70px;
+.social {
+    color: black;
 }
 
-.social a {
-    border: none !important;
+.social i {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
 
-.menu {
-
+.social i:hover {
+    color: gray;
 }
 
-.dropdown {
+.social i:focus {
+    color: gray;
+}
+
+.social i:active {
+    color: gray;
+}
+
+.navbar {
+    justify-content: flex-end!important;
+    padding: 0;
+}
+
+.navbar-nav a {
+    margin-bottom: 1px;
     background: transparent;
+    font-family: MullerBold, serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-right: 0.4rem;
 }
 
-.dropdown-toggle {
+.navbar-nav a:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav a:hover {
+    border: none;
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar-nav a:active {
+    color: darkgray;
+}
+
+.navbar-toggler {
     background: transparent;
     border: none;
-    color: black
+    color: black;
+    padding: 0;
+}
+
+.navbar-toggler:hover {
+    color: gray;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+.navbar-toggler:active {
+    outline: none;
 }
 
 .dropdown-toggle::after {
     display: none;
-
 }
 
 .dropdown-toggle:focus {
@@ -157,9 +219,11 @@ a.dropdown-item {
 }
 
 .photosTitle {
-    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
     font-family: "MullerBold", serif;
     font-size: 2rem;
+    background: rgba(209, 209, 209, 0.5);
 }
 
 /*Слайдер 1*/
@@ -205,9 +269,10 @@ a.dropdown-item {
 }
 
 .btn-outline-secondary {
-    margin-top: -10em;
-    width: 3em;
-    height: 3em;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    width: 5em;
+    height: 5em;
     color: black;
     border: none;
     background-color: transparent;
@@ -246,9 +311,11 @@ a.dropdown-item {
 
 .videosTitle {
     color: white;
-    padding-top: 5rem;
+    margin-top: 4rem;
+    padding-top: 1rem;
     font-family: "MullerBold", serif;
     font-size: 2rem;
+    background: rgba(209, 209, 209, 0.2);;
 }
 
 /*Слайдер 2*/
@@ -299,9 +366,11 @@ a.dropdown-item {
 }
 
 .musicTitle {
-    padding-top: 5rem;
+    margin-top: 3rem;
+    padding-top: 1.2rem;
     font-family: "MullerBold", serif;
     font-size: 2rem;
+    background: rgba(209, 209, 209, 0.5);
 }
 
 .contacts {
