@@ -25,11 +25,11 @@
     }
 
     .name {
-        margin-top: 8.8rem!important;
+        margin-top: 8.8rem !important;
     }
 
     .navbar-nav a {
-        color: #fafafa!important;
+        color: #fafafa !important;
     }
 }
 
@@ -93,8 +93,20 @@
     color: gray;
 }
 
+.social:hover {
+    color: gray;
+}
+
+.social:focus {
+    color: gray;
+}
+
+.social:active {
+    color: gray;
+}
+
 .navbar {
-    justify-content: flex-end!important;
+    justify-content: flex-end !important;
     padding: 0;
 }
 
@@ -135,6 +147,7 @@
 .navbar-toggler:focus {
     outline: none;
 }
+
 .navbar-toggler:active {
     outline: none;
 }
@@ -159,7 +172,7 @@ a.dropdown-item {
 }
 
 .about {
-    background: url(../images/bgtest1.png) no-repeat center center;
+    background: url(../images/aboutBg.png) no-repeat center center;
     background-size: cover;
     color: white;
     position: relative;
@@ -183,6 +196,24 @@ a.dropdown-item {
 
 .musicBtn img {
     width: 100%;
+}
+
+.musicBtn img:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.aboutMusicBtn {
+    margin-right: 0.4rem;
+}
+
+.aboutMusicBtn img:hover{
+    box-shadow: 0 0 15px rgba(169,169,169,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .aboutText {
@@ -403,5 +434,34 @@ a.dropdown-item {
     color: #fafafa;
     text-decoration: underline;
 }
+
+.adv a:hover {
+    color: darkgray;
+}
+
+.upBtn {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 50px;
+    background-color: darkgrey;
+    color: black;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.upBtn:hover {
+    background: gray;
+    color: #fafafa;
+}
+
+.fa-chevron-up {
+    margin-left: 9px;
+}
+
+
 
 

@@ -69,4 +69,8 @@ $(document).ready(function () {
 
 jQuery(document).ready(function () {
     $("a.nav-link").mPageScroll2id();
+    $("a.upBtn").mPageScroll2id();
 });
+
+
+

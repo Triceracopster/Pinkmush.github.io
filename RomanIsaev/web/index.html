@@ -17,7 +17,7 @@
     <base target="_blank">
 </head>
 <body>
-<div class="header ">
+<div class="header" id="header">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-12 col-lg-8 col-12 text-right bg" id="bgSmall">
@@ -39,9 +39,11 @@
                 </nav>
                 <p class="name">РОМАН ИСАЕВ</p>
                 <p class="desc">ПЕВЕЦ | АВТОР ПЕСЕН</p>
-                <a class="social" id="social" href="https://www.youtube.com/user/Ram1z86"><i class="fab fa-3x fa-youtube"></i></a>
+                <a class="social" id="social" href="https://www.youtube.com/user/Ram1z86"><i
+                        class="fab fa-3x fa-youtube"></i></a>
                 <a class="social" id="social" href="https://vk.com/romanisaew"><i class="fab fa-3x fa-vk"></i></a>
-                <a class="social" id="social" href="https://www.instagram.com/romanisaew"><i class="fab fa-3x fa-instagram"></i></a>
+                <a class="social" id="social" href="https://www.instagram.com/romanisaew"><i
+                        class="fab fa-3x fa-instagram"></i></a>
             </div>
         </div>
     </div>
@@ -67,12 +69,12 @@
                     Еnergy", "Love радио", "Like FM" и др.
                     <br>
                     Ознакомиться с творчеством артиста можно по ссылкам ниже: <br>
-                <div class="musicBtn">
+                <div class="musicBtn aboutMusicBtn">
                     <a class="gp"
                        href="https://play.google.com/store/music/collection/5:search_cluster:2?clp=YjIKFdCg0L7QvNCw0L0g0JjRgdCw0LXQshACGhcKFdCg0L7QvNCw0L0g0JjRgdCw0LXQsg%3D%3D%3AS%3AANO1ljKUZpQ&hl=ru"><img
                             src="images/google_play.png" alt=""></a>
                 </div>
-                <div class="musicBtn">
+                <div class="musicBtn aboutMusicBtn">
                     <a class="as"
                        href="https://itunes.apple.com/us/artist/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D0%B8%D1%81%D0%B0%D0%B5%D0%B2/1097402478"><img
                             src="images/appstore.png" alt=""></a>
@@ -114,35 +116,35 @@
             <div class="col-12 text-center">
                 <section class="center slider slider2">
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/vZlDokdcL-s" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/vZlDokdcL-s?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/Q1wTJZVYPnw" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/Q1wTJZVYPnw?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/I2xYw7Xq2Wo" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/I2xYw7Xq2Wo?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/h0PROF9-mEI" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/h0PROF9-mEI?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/hTY1vlK0cXU" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/hTY1vlK0cXU?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/V-pvS47hb28" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/V-pvS47hb28?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/N4DDoMKLlLk" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/N4DDoMKLlLk?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="slider2Item">
-                        <iframe src="https://www.youtube.com/embed/euOygjx6x2U" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/euOygjx6x2U?enablejsapi=1" frameborder="0"
                                 allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </section>
@@ -312,7 +314,35 @@
         </div>
     </div>
 </div>
+<a class="upBtn" href="#header" target="_self"><i class="fas fa-3x fa-chevron-up"></i></a>
 
+<script>
+    var tag = document.createElement('script');
+    tag.src = "//www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    function onYouTubeIframeAPIReady() {
+        var $ = jQuery;
+        var players = [];
+        $('iframe').filter(function(){return this.src.indexOf('https://www.youtube.com/') == 0}).each( function (k, v) {
+            if (!this.id) { this.id='embeddedvideoiframe' + k }
+            players.push(new YT.Player(this.id, {
+                events: {
+                    'onStateChange': function(event) {
+                        if (event.data == YT.PlayerState.PLAYING) {
+                            $.each(players, function(k, v) {
+                                if (this.getIframe().id != event.target.getIframe().id) {
+                                    this.pauseVideo();
+                                }
+                            });
+                        }
+                    }
+                }
+            }))
+        });
+    }
+</script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
