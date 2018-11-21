@@ -2065,3 +2065,8 @@ p {
     font-family: 'Lobster', cursive;
 }
 
+.contact-us li {
+    justify-content: center;
+}
+
+

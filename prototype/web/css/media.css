@@ -314,6 +314,7 @@
     }
     .opening-hours {
         margin: 25px 0;
+        justify-content: center;
     }
     .test-video-box figure {
         max-height: 300px;
