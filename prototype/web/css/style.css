@@ -20,24 +20,36 @@
 16. Copyright css
 17. Back To Top css
 -------------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Galada|Playball|Poppins:300,400,500,600,700');
+
+@media (min-width: 100px) and (max-width: 980px) {
+    .banner-cell span {
+        display: none;
+    }
+
+    .banner-cell h1 {
+        font-size: 3.5rem;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .block-title span {
+        display: none;
+    }
+
+    .block-title {
+        font-size: 3.5rem;
+    }
+
+    .footer-title {
+        font-size: 3rem;
+    }
+}
 
 /* ==================================================
     1. HTML5 display-role reset for older browsers
 ===================================================== */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -99,7 +111,6 @@ a:focus {
     background: #e75b1e;
 }
 
-
 /* 1.1 css reset */
 
 .clear {
@@ -118,7 +129,6 @@ img {
     max-width: 100%;
     vertical-align: top;
 }
-
 
 /* 1.2 Global CSS */
 
@@ -259,7 +269,6 @@ p {
     text-align: center;
 }
 
-
 /* ===================================
     2. Header CSS
 ====================================== */
@@ -296,7 +305,7 @@ p {
     margin: 0 20px;
     -webkit-transition: color 0.4s;
     transition: color 0.4s;
-    font-weight: 500;    
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -367,7 +376,7 @@ p {
     background: #e75b1e;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
     max-width: 251px;
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -375,7 +384,7 @@ p {
     transition: all 0.5s ease-in;
 }
 
-.fixed .navbar-brand>img {
+.fixed .navbar-brand > img {
     max-width: 150px;
 }
 
@@ -402,7 +411,6 @@ p {
 .menuBar {
     padding: 0 50px;
 }
-
 
 /* ===================================
     3. Banner CSS
@@ -596,7 +604,6 @@ p {
     margin: 0 0 1px 10px;
 }
 
-
 /* ===================================
     4. About CSS
 ====================================== */
@@ -635,7 +642,6 @@ p {
 .about-block {
     margin-bottom: 15px;
 }
-
 
 /* ===================================
     5. Today's Special Menu CSS
@@ -738,7 +744,6 @@ p {
     margin-top: 25px;
 }
 
-
 /* ===================================
     6. Our Menu CSS
 ====================================== */
@@ -782,7 +787,7 @@ p {
     width: 75px;
     border-radius: 50%;
     overflow: hidden;
-    float: left;    
+    float: left;
     margin-top: 9px;
 }
 
@@ -826,7 +831,7 @@ p {
 }
 
 .our-menu-block .col-lg-6:first-of-type,
-.our-menu-block .col-lg-6:first-of-type+div {
+.our-menu-block .col-lg-6:first-of-type + div {
     margin: 18px 0 40px;
 }
 
@@ -866,7 +871,6 @@ p {
     padding-left: 20px;
 }
 
-
 /* ===================================
     7. Video Menu CSS
 ====================================== */
@@ -877,7 +881,7 @@ p {
     background-position: center top;
     background-size: cover;
     width: 100%;
-    position: relative;    
+    position: relative;
     min-height: 512px;
     vertical-align: top;
 }
@@ -924,15 +928,14 @@ p {
     left: 0;
     right: 0;
     width: 100%;
-    -webkit-transform: translate(0,-50%);
-    -moz-transform: translate(0,-50%);
-    -ms-transform: translate(0,-50%);
-    -o-transform: translate(0,-50%);
-    transform: translate(0,-50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     height: 100%;
     background-color: #000;
 }
-
 
 /* ===================================
     8. Everyday's Menu CSS
@@ -942,9 +945,9 @@ p {
     margin-bottom: 100px;
 }
 
-.tab-menu .nav-tabs>li.active>a,
-.tab-menu .nav-tabs>li.active>a:focus,
-.tab-menu .nav-tabs>li.active>a:hover {
+.tab-menu .nav-tabs > li.active > a,
+.tab-menu .nav-tabs > li.active > a:focus,
+.tab-menu .nav-tabs > li.active > a:hover {
     border: 0;
     background-color: transparent;
     color: #fff;
@@ -965,12 +968,12 @@ p {
     display: inline-block;
 }
 
-.tab-menu .nav>li>a:focus,
-.tab-menu .nav>li>a:hover {
+.tab-menu .nav > li > a:focus,
+.tab-menu .nav > li > a:hover {
     background-color: transparent;
 }
 
-.tab-menu .nav-tabs>li>a {
+.tab-menu .nav-tabs > li > a {
     border: 0;
     color: #717171;
     font-size: 24px;
@@ -978,15 +981,15 @@ p {
     letter-spacing: 1.62px;
     text-transform: capitalize;
     margin: 0 15px;
-    overflow: visible;    
+    overflow: visible;
     font-weight: 400;
 }
 
-.tab-menu .nav-tabs>li:first-child>a {
+.tab-menu .nav-tabs > li:first-child > a {
     /* margin-right: 0; */
 }
 
-.tab-menu .nav-tabs>li:last-child>a {
+.tab-menu .nav-tabs > li:last-child > a {
     /*margin-right: 0;*/
 }
 
@@ -1003,7 +1006,7 @@ p {
     position: static;
 }
 
-.tab-menu .nav-tabs>li>a:after {
+.tab-menu .nav-tabs > li > a:after {
     /* content: ''; */
     width: 8px;
     height: 54px;
@@ -1016,7 +1019,7 @@ p {
     z-index: 1;
 }
 
-.tab-menu .nav-tabs>li:last-child>a:after {
+.tab-menu .nav-tabs > li:last-child > a:after {
     width: 0;
 }
 
@@ -1119,7 +1122,6 @@ p {
     position: relative;
     z-index: 1;
 }
-
 
 /* ===================================
     9. Team CSS
@@ -1315,20 +1317,19 @@ p {
     line-height: 47px;
 }
 
-
 /* ===================================
     10. Food Gallery CSS
 ====================================== */
 
 .food-gallery {
-    text-align: center;    
+    text-align: center;
     margin-bottom: 23px;
 }
 
 .food-gallery-item {
     width: 25%;
     padding: 9px;
-    float: left;    
+    float: left;
     position: relative;
 }
 
@@ -1354,7 +1355,7 @@ p {
     display: inline-block;
     width: 100%;
     height: 100%;
-    /*position: relative;*/    
+    /*position: relative;*/
     vertical-align: top;
 }
 
@@ -1401,7 +1402,6 @@ p {
     margin-top: -20px;
     margin-left: -20px;
 }
-
 
 /* ===================================
     11. Testimonial CSS
@@ -1532,7 +1532,6 @@ p {
     color: #fff;
 }
 
-
 /* ===================================
     12. Blog CSS
 ====================================== */
@@ -1552,7 +1551,7 @@ p {
 .blog-box {
     position: absolute;
     top: -45px;
-    left: -30px;    
+    left: -30px;
     max-width: 570px;
 }
 
@@ -1668,7 +1667,6 @@ p {
     margin-top: 28px;
 }
 
-
 /* ===================================
     13. Catering CSS
 ====================================== */
@@ -1705,7 +1703,6 @@ p {
 .catering-block .col-lg-12 {
     margin: 10px 0;
 }
-
 
 /* ===================================
     14. Reservation CSS
@@ -1746,7 +1743,7 @@ p {
     cursor: pointer;
 }
 
-.reservation-block .form-box select::-ms-expand{
+.reservation-block .form-box select::-ms-expand {
     display: none;
 }
 
@@ -1773,25 +1770,24 @@ p {
 }
 
 .reservation-block .form-box input::-webkit-input-placeholder {
-   color: #717171; 
-   opacity: 1;
+    color: #717171;
+    opacity: 1;
 }
 
 .reservation-block .form-box input:-moz-placeholder {
-   color: #717171;   
-   opacity: 1;
+    color: #717171;
+    opacity: 1;
 }
 
 .reservation-block .form-box input::-moz-placeholder {
-   color: #717171;   
-   opacity: 1;
+    color: #717171;
+    opacity: 1;
 }
 
-.reservation-block .form-box input:-ms-input-placeholder {  
-   color: #717171;   
-   opacity: 1;
+.reservation-block .form-box input:-ms-input-placeholder {
+    color: #717171;
+    opacity: 1;
 }
-
 
 /* ===================================
     15. Footer CSS
@@ -1919,7 +1915,7 @@ p {
 }
 
 .newsletter p {
-    margin-bottom: 33px;    
+    margin-bottom: 33px;
     font-size: 16px;
 }
 
@@ -1969,7 +1965,6 @@ p {
     margin-left: 18px;
 }
 
-
 /* ===================================
     16. Copyright CSS
 ====================================== */
@@ -2006,7 +2001,6 @@ p {
 .copy-title a:hover {
     color: #e75b1e;
 }
-
 
 /* ===================================
     17. Back To Top CSS
