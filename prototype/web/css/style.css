@@ -784,7 +784,7 @@ p {
 
 .menu-list ul li figure {
     display: inline-block;
-    width: 75px;
+    width: 90px;
     border-radius: 50%;
     overflow: hidden;
     float: left;
@@ -1927,7 +1927,6 @@ p {
 
 .footer-content .footer-title {
     font-size: 34px;
-    text-transform: capitalize;
 }
 
 .opening-hours i.fa {
@@ -1992,6 +1991,7 @@ p {
 
 .social-media-icons {
     margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .copy-title a {
@@ -2051,3 +2051,17 @@ p {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
+.johny {
+    width: 400px;
+    height: 400px;
+}
+
+.menu-list h3{
+    margin-bottom: 0!important;
+}
+
+.block-title {
+    font-family: 'Lobster', cursive;
+}
+
