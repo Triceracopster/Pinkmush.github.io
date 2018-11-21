@@ -142,7 +142,7 @@ body {
     word-wrap: break-word;
     /*font-family: 'Playball', cursive;*/
     font-family: 'Poppins', sans-serif;
-    background-image: url("../images/full-bg.png");
+    background: black url("../images/full-bg.png");
     background-repeat: repeat;
     background-position: center center;
 }
