@@ -1,25 +1,4 @@
-/*------------------------------------------------------------------
-[Table of contents]
-1. HTML5 display-role reset for older browsers
-  1.1 css reset
-  1.2 global css
-2. Header css
-3. Banner css
-4. About css
-5. Today's Special Menu css
-6. Our Menu css
-7. Video Menu css
-8. Everyday's Menu css
-9. Team css
-10. Food Gallery css
-11. Testimonial css
-12. Blog css
-13. Catering css
-14. Reservation css
-15. Footer css
-16. Copyright css
-17. Back To Top css
--------------------------------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Galada|Playball|Poppins:300,400,500,600,700');
 
 @media (min-width: 100px) and (max-width: 980px) {
@@ -46,9 +25,6 @@
     }
 }
 
-/* ==================================================
-    1. HTML5 display-role reset for older browsers
-===================================================== */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -111,7 +87,7 @@ a:focus {
     background: #e75b1e;
 }
 
-/* 1.1 css reset */
+
 
 .clear {
     clear: both;
@@ -130,7 +106,7 @@ img {
     vertical-align: top;
 }
 
-/* 1.2 Global CSS */
+
 
 body {
     margin: 0;
@@ -268,10 +244,6 @@ p {
 .text-align-center {
     text-align: center;
 }
-
-/* ===================================
-    2. Header CSS
-====================================== */
 
 .header-block {
     position: fixed;
@@ -411,10 +383,6 @@ p {
 .menuBar {
     padding: 0 50px;
 }
-
-/* ===================================
-    3. Banner CSS
-====================================== */
 
 .banner {
     display: inline-block;
@@ -604,10 +572,6 @@ p {
     margin: 0 0 1px 10px;
 }
 
-/* ===================================
-    4. About CSS
-====================================== */
-
 .about-block .block-title {
     text-align: left;
 }
@@ -642,10 +606,6 @@ p {
 .about-block {
     margin-bottom: 15px;
 }
-
-/* ===================================
-    5. Today's Special Menu CSS
-====================================== */
 
 .special-menu-block {
     display: inline-block;
@@ -743,10 +703,6 @@ p {
 .spcl-menu {
     margin-top: 25px;
 }
-
-/* ===================================
-    6. Our Menu CSS
-====================================== */
 
 .our-menu-block:after {
     content: '';
@@ -871,10 +827,6 @@ p {
     padding-left: 20px;
 }
 
-/* ===================================
-    7. Video Menu CSS
-====================================== */
-
 .video-menu-block {
     display: inline-block;
     background-image: url('../images/video-bg.jpg');
@@ -936,10 +888,6 @@ p {
     height: 100%;
     background-color: #000;
 }
-
-/* ===================================
-    8. Everyday's Menu CSS
-====================================== */
 
 .tab-content .item figure {
     margin-bottom: 100px;
@@ -1122,10 +1070,6 @@ p {
     position: relative;
     z-index: 1;
 }
-
-/* ===================================
-    9. Team CSS
-====================================== */
 
 .team-block {
     display: inline-block;
@@ -1317,10 +1261,6 @@ p {
     line-height: 47px;
 }
 
-/* ===================================
-    10. Food Gallery CSS
-====================================== */
-
 .food-gallery {
     text-align: center;
     margin-bottom: 23px;
@@ -1403,9 +1343,6 @@ p {
     margin-left: -20px;
 }
 
-/* ===================================
-    11. Testimonial CSS
-====================================== */
 
 .testimonial-block {
     display: inline-block;
@@ -1531,10 +1468,6 @@ p {
 .testimonial-slider .stars a:hover {
     color: #fff;
 }
-
-/* ===================================
-    12. Blog CSS
-====================================== */
 
 .blog-box h4 {
     text-transform: uppercase;
@@ -1667,10 +1600,6 @@ p {
     margin-top: 28px;
 }
 
-/* ===================================
-    13. Catering CSS
-====================================== */
-
 .catering-block {
     display: inline-block;
     background-image: url(../images/catering-bg.png);
@@ -1703,10 +1632,6 @@ p {
 .catering-block .col-lg-12 {
     margin: 10px 0;
 }
-
-/* ===================================
-    14. Reservation CSS
-====================================== */
 
 .reservation-block .form-box input,
 .reservation-block .form-box select {
@@ -1788,10 +1713,6 @@ p {
     color: #717171;
     opacity: 1;
 }
-
-/* ===================================
-    15. Footer CSS
-====================================== */
 
 .footer-block {
     display: inline-block;
@@ -1964,10 +1885,6 @@ p {
     margin-left: 18px;
 }
 
-/* ===================================
-    16. Copyright CSS
-====================================== */
-
 .copyright-block {
     border-top: 2px dotted #fff;
 }
@@ -2002,9 +1919,6 @@ p {
     color: #e75b1e;
 }
 
-/* ===================================
-    17. Back To Top CSS
-====================================== */
 
 .back-to-top {
     display: inline-block;
