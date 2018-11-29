@@ -778,13 +778,14 @@ p {
 
 .menu-info:before {
     content: '';
-    background-image: url(../images/dots.jpg);
-    background-repeat: repeat-x;
+    background: url(../images/dots.jpg) repeat-x;
     position: relative;
     display: block;
     height: 3px;
     top: 15px;
+
 }
+
 
 .our-menu-block .col-lg-6:first-of-type,
 .our-menu-block .col-lg-6:first-of-type + div {
@@ -798,7 +799,7 @@ p {
     height: 100%;
     background-color: #fff;
     border: 10px solid #e75b1e;
-    padding: 30px;
+    padding: 20px;
     margin-top: 68px;
     background-image: url('../images/menu-separator.png');
     background-repeat: no-repeat;
@@ -825,6 +826,10 @@ p {
 
 .no-pad-right .menu-list {
     padding-left: 20px;
+}
+
+.menu-list h3 {
+    margin-top: 20px;
 }
 
 .video-menu-block {
