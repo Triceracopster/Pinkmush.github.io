@@ -2019,7 +2019,7 @@ p {
 .slider {
     width: 95%;
     margin: 40px auto;
-    height: 60%;
+    height: 600px;
 }
 
 .slick-slide {
@@ -2032,8 +2032,8 @@ p {
 }
 
 .sliderImage {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 580px!important;
 }
 
 .center .slick-center img {
