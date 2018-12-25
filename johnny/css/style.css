@@ -2032,9 +2032,9 @@ p {
 }
 
 .sliderImage {
-    object-fit: cover;
-    width: 1280px;
-    height: 800px;
+    object-fit: contain;
+    width: 800px;
+    height: 600px;
 }
 
 .center .slick-center img {
