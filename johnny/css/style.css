@@ -272,7 +272,7 @@ p {
 .menuDesc {
     margin-top: 20px;
     font-size: 2rem;
-    font-family: 'Galada', cursive;
+    font-family: 'Ubuntu', cursive;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -389,7 +389,7 @@ p {
 
 .navbar-header {
     position: relative;
-    background: rgba(1, 1, 1, 0.3);
+    background: rgba(1, 1, 1, 0.7);
 }
 
 .fixed .menuBar ul li a {
@@ -765,7 +765,7 @@ p {
 .menu-list h6 {
     font-size: 1.6rem;
     letter-spacing: 1.1px;
-    font-family: 'Galada', cursive;
+    font-family: 'Ubuntu', cursive;
 
 }
 
