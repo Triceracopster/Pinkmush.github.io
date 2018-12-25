@@ -216,7 +216,7 @@ p {
 
 .block-title {
     color: #e75b1e;
-    margin: 0;
+    margin-bottom: 15px;
     text-align: center;
     font-family: 'Playball', cursive;
     letter-spacing: 1.62px;
@@ -615,11 +615,13 @@ p {
     position: relative;
     letter-spacing: 0.72px;
     padding: 6px 0 25px;
+    font-family: 'Galada', cursive;
 }
 
 .about-block p {
     font-size: 16px;
     letter-spacing: 0.16px;
+    font-family: Ubuntu;
 }
 
 .about-img img {
@@ -1887,14 +1889,13 @@ p {
     font-size: 20px;
     position: relative;
     top: 4px;
-    float: left;
     min-width: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.4);
 }
 
 .opening-hours h6 span {
-    display: table;
+    display: inline;
     padding-left: 10px;
     letter-spacing: 0.86px;
 }
@@ -2018,12 +2019,11 @@ p {
 
 .slider {
     width: 95%;
-    margin: 40px auto;
-    height: 600px;
+    margin: 0 auto;
 }
 
 .slick-slide {
-    margin: 0 30px;
+    margin: 0;
 }
 
 .slick-prev:before,
@@ -2032,8 +2032,9 @@ p {
 }
 
 .sliderImage {
-    width: auto;
-    height: 580px!important;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
 }
 
 .center .slick-center img {
