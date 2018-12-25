@@ -2023,7 +2023,7 @@ p {
 }
 
 .slick-slide {
-    margin: 0;
+    margin: 10px;
 }
 
 .slick-prev:before,
@@ -2032,9 +2032,9 @@ p {
 }
 
 .sliderImage {
-    width: 100%;
-    height: auto;
-    max-height: 600px;
+    object-fit: cover;
+    width: 1280px;
+    height: 800px;
 }
 
 .center .slick-center img {
