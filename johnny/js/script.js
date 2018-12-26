@@ -4,6 +4,7 @@ $(document).ready(function () {
         centerPadding: '0px',
         infinite: true,
         speed: 400,
+        fade: true,
         autoplay: true,
         autoplaySpeed: 6000,
         adaptiveHeight: true,
