@@ -6,8 +6,8 @@
     }
 
     .banner-cell h1 {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 64px;
+        line-height: 64px;
         margin-bottom: 10px;
     }
 
@@ -568,7 +568,7 @@ p {
 
 .banner-text h2 {
     color: #e75b1e;
-    font-family: 'Playball', cursive;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     top: -14px;
     margin-bottom: 7px;
@@ -830,7 +830,6 @@ p {
     display: block;
     height: 3px;
     top: 15px;
-
 }
 
 .our-menu-block .col-lg-6:first-of-type,
@@ -876,7 +875,7 @@ p {
 }
 
 .menu-list h3 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .video-menu-block {
@@ -2065,6 +2064,33 @@ p {
     box-shadow: none;
     background-color: transparent;
     outline: none!important;
+}
+
+.menu-element {
+    visibility: hidden;
+}
+
+.menu-img {
+    visibility: visible;
+    position: relative;
+}
+
+.menu-element:hover {
+    visibility: visible;
+}
+
+.menu-element div {
+    position: absolute;
+    z-index: 9999;
+    /*top: 20rem;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    right: 3rem;
+    width: 40rem;
+    height: 22rem;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 0 #000, 0 0 0 2000px rgba(210,210,210,.6);
 }
 
 
