@@ -22,6 +22,11 @@
     .footer-title {
         font-size: 3rem;
     }
+
+    .menu-element div {
+        width: 30rem!important;
+        height: 16rem!important;
+    }
 }
 
 
@@ -421,7 +426,7 @@ p {
     height: 768px;
     height: 100vh;
     min-height: 800px;
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/banner2.jpg);
     background-position: center top;
     background-size: cover;
     padding: 0;
@@ -2085,12 +2090,12 @@ p {
     /*top: 20rem;*/
     /*left: 0;*/
     /*bottom: 0;*/
-    right: 3rem;
+    right: 1rem;
     width: 40rem;
     height: 22rem;
     margin: auto;
     border-radius: 50%;
-    box-shadow: 0 0 0 #000, 0 0 0 2000px rgba(210,210,210,.6);
+    box-shadow: 0 0 0 #000, 0 0 0 10000px rgba(210,210,210,.6);
 }
 
 
