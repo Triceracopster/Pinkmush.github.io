@@ -624,7 +624,7 @@ p {
 }
 
 .about-block p {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.16px;
     font-family: Ubuntu;
 }
@@ -2098,4 +2098,24 @@ p {
     box-shadow: 0 0 0 #000, 0 0 0 10000px rgba(210,210,210,.6);
 }
 
+.advantage {
+    padding: 5px;
+}
 
+.advantage img {
+    display: flex;
+    width: 60px;
+    margin: 1rem;
+
+}
+
+.card-body p {
+
+    font-family: 'Ubuntu', serif;
+    font-size: 1.8rem;
+
+}
+
+.card img {
+    width: 100px;
+}
