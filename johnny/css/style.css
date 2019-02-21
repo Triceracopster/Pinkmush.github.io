@@ -24,13 +24,11 @@
     }
 
     .menu-element div {
-        width: 25rem!important;
-        height: 12rem!important;
-        box-shadow: 0 0 0 #000, 0 0 0 0 rgba(210,210,210,.6)!important;
+        width: 25rem !important;
+        height: 12rem !important;
+        box-shadow: 0 0 0 #000, 0 0 0 0 rgba(210, 210, 210, .6) !important;
     }
 }
-
-
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
@@ -113,7 +111,7 @@ body {
     overflow-x: hidden;
     word-wrap: break-word;
     /*font-family: 'Playball', cursive;*/
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
     background: black url("../images/full-bg.png");
     background-repeat: repeat;
     background-position: center center;
@@ -222,7 +220,7 @@ p {
 
 .block-title {
     color: #e75b1e;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
     font-family: 'Playball', cursive;
     letter-spacing: 1.62px;
@@ -484,6 +482,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-bottom: 33px;
+    text-shadow: 1px 1px 2px black, 0 0 1px black;
 }
 
 .orange-btn {
@@ -497,6 +496,26 @@ p {
     letter-spacing: 1.08px;
     text-transform: uppercase;
     position: relative;
+}
+
+.orange-btn {
+    min-width: 219px;
+    padding: 16.5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.orange-btn-2 {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .orange-btn.empty-btn {
@@ -518,8 +537,8 @@ p {
 }
 
 .banner-buttons .orange-btn {
-    margin-top: 34px;
-    margin-bottom: 34px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .orange-btn:before {
@@ -1323,8 +1342,6 @@ p {
     margin-bottom: 23px;
 }
 
-
-
 .food-gallery-item.wide {
     width: 50%;
 }
@@ -2017,7 +2034,6 @@ p {
     font-family: 'Lobster', cursive;
 }
 
-
 .toggle-menu {
     color: orangered;
 }
@@ -2058,7 +2074,7 @@ p {
     color: black;
     border: none;
     background-color: transparent;
-    outline: none!important;
+    outline: none !important;
 }
 
 .btn-outline-secondary:hover {
@@ -2069,7 +2085,7 @@ p {
     border: none !important;
     box-shadow: none;
     background-color: transparent;
-    outline: none!important;
+    outline: none !important;
 }
 
 .menu-element {
@@ -2096,7 +2112,7 @@ p {
     height: 22rem;
     margin: auto;
     border-radius: 50%;
-    box-shadow: 0 0 0 #000, 0 0 0 200px rgba(210,210,210,.6);
+    box-shadow: 0 0 0 #000, 0 0 0 200px rgba(210, 210, 210, .6);
 }
 
 .card-body p {
