@@ -33,6 +33,18 @@
         font-size: 1.3rem!important;
     }
 
+    .banner-text h1 {
+        font-size: 3.5rem;
+    }
+    .banner-text h2 {
+        font-size: 4.2rem!important;
+    }
+
+    .card {
+        height: 280px;
+        margin: 0!important;
+    }
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
