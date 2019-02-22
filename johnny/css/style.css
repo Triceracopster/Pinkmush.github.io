@@ -2133,7 +2133,7 @@ p {
     position: relative;
 }
 
-.menu-element:hover {
+.menu-element:hover .menu-element:active {
     visibility: visible;
     opacity: 1;
 }
