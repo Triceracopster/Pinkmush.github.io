@@ -45,6 +45,20 @@
         margin: 0!important;
     }
 
+    .johny {
+        height: 250px!important;
+        width: 250px!important;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 321px) {
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .banner-text h2 {
+        font-size: 4rem!important;
+    }
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2121,6 +2135,11 @@ p {
 
 .menu-element:hover {
     visibility: visible;
+    opacity: 1;
+}
+
+.menu-element:active {
+    -webkit-transition: opacity 1s ease-out;
 }
 
 .menu-element div {
