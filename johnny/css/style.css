@@ -2126,6 +2126,7 @@ p {
 
 .menu-element {
     visibility: hidden;
+    cursor: pointer;
 }
 
 .menu-img {
@@ -2133,7 +2134,7 @@ p {
     position: relative;
 }
 
-.menu-element:hover .menu-element:active {
+.menu-element:hover, .menu-element:active, .menu-element:focus {
     visibility: visible;
     opacity: 1;
 }
