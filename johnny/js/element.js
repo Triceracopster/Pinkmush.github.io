@@ -4,6 +4,10 @@ var $ = jQuery;
 
 $(document).ready(function($) {
 
+    $(function() {
+        FastClick.attach(document.body);
+    });
+
     /**
      *  Smooth Scroll
      *  -----------------------------------------------------------------------
